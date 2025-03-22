@@ -1,0 +1,39 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+input.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.recommendation-card {
+  width: 22rem;
+  border: none;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
